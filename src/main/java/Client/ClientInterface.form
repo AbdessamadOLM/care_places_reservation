@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.ClientInterface">
+  <grid id="27dc6" binding="global" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="857" height="565"/>
+    </constraints>
+    <properties/>
+    <border type="line" title="Reservation" title-justification="2">
+      <font name="Britannic Bold" size="20" style="1"/>
+      <title-color color="-15397445"/>
+      <color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="9addf" layout-manager="GridLayoutManager" row-count="7" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Last"/>
+        <properties>
+          <font name="Consolas" size="16" style="1"/>
+        </properties>
+        <border type="line" title="Réservez" title-justification="1">
+          <font name="Consolas" size="16" style="1"/>
+          <color color="-4521977"/>
+        </border>
+        <children>
+          <component id="f42a8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="1"/>
+              <text value="trajet"/>
+            </properties>
+          </component>
+          <component id="c2984" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="1"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="36070" class="javax.swing.JButton" binding="reserverButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Reserver"/>
+            </properties>
+          </component>
+          <component id="b8113" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="1"/>
+              <text value="Numero de place"/>
+            </properties>
+          </component>
+          <component id="76fd8" class="javax.swing.JLabel" binding="Prix">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="30" style="1"/>
+              <foreground color="-4521977"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="2518e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="1"/>
+              <text value="Prix: "/>
+            </properties>
+          </component>
+          <hspacer id="bf98">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="51259">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="43d4e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="16" style="1"/>
+              <text value="Mobile"/>
+            </properties>
+          </component>
+          <component id="a00f" class="javax.swing.JTextField" binding="mobile_in">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d41e7" class="javax.swing.JTextField" binding="in_num_place">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ecd67" class="javax.swing.JTextField" binding="in_name">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c8a9e" class="javax.swing.JTextField" binding="in_num_trajet">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="21962">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <component id="45c74" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <grid id="686ce" binding="reservation_pan" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none" title="Mes Réservation" title-position="2">
+          <font name="Consolas" size="16" style="1"/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="c8957" class="javax.swing.JTable" binding="mes_reservation">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c439c" class="javax.swing.JButton" binding="button2" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Cancel Réservation"/>
+            </properties>
+          </component>
+          <hspacer id="2d1c4">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="14185" binding="trajet_pan" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <maximumSize width="-1" height="-1"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="200" height="100"/>
+        </properties>
+        <border type="line" title="Trajet" title-justification="1">
+          <font name="Consolas" size="16" style="1"/>
+          <title-color color="-16777216"/>
+          <color color="-2628377"/>
+        </border>
+        <children>
+          <component id="ec6e8" class="javax.swing.JTable" binding="trajet_table">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <grid id="153d2" binding="place_pan" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="line" title="Places à Réserver" title-justification="1" title-position="2">
+              <font name="Consolas" size="16" style="1"/>
+              <title-color color="-16777216"/>
+              <color color="-4521977"/>
+            </border>
+            <children>
+              <component id="6366f" class="javax.swing.JTable" binding="places_table">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
